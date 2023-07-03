@@ -1,26 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <FormBinding />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import FormBinding from "./components/FormBinding.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    FormBinding,
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
